@@ -2,7 +2,7 @@ import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { RouterModule } from '@angular/router';
-import { MaterializeModule } from 'ng2-materialize';
+import { MzIconModule, MzSidenavModule } from 'ng2-materialize';
 
 import { CodeSnippetModule } from '../shared/code-snippet/code-snippet.module';
 import { PropertiesTableModule } from '../shared/properties-table/properties-table.module';
@@ -13,7 +13,8 @@ import { SidenavComponent } from './sidenav.component';
     BrowserAnimationsModule,
     CodeSnippetModule,
     CommonModule,
-    MaterializeModule,
+    MzIconModule,
+    MzSidenavModule,
     PropertiesTableModule,
     RouterModule,
   ],

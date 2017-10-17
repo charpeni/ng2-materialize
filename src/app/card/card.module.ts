@@ -4,7 +4,8 @@ import { NgModule } from '@angular/core';
 import { MzCardComponent } from './card.component';
 
 @NgModule({
-  import: [CommonModule],
+  imports: [CommonModule],
   declarations: [MzCardComponent],
+  exports: [MzCardComponent],
 })
 export class MzCardModule { }

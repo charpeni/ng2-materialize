@@ -15,6 +15,6 @@ import { ButtonComponent } from './button.component';
     MzButtonModule,
     PropertiesTableModule,
   ],
-  declarations: [ ButtonComponent ],
+  declarations: [ButtonComponent],
 })
 export class ButtonModule { }
